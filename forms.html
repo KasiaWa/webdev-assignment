@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Hussaria Speed Ladies</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<img src="images/group.jpg" height="550" width="1320" alt="image of women bikers">
+		
+		</div>
+		<div class="nav">	
+			<a class="link_nav" href="index.html">Home</a>
+			<div class="dropdown">
+				<button class="aboutgroup" >About group</button>
+					<div class="group-content">
+						<a href="about_us.html">About us</a>
+						<a href="group_founders.html">Group Founders</a>
+						<a href="members.html">Members</a>	
+					</div>
+			</div>
+			<a class="link_nav" href="gallery.html" >Gallery</a>
+			<div class="dropevent">
+				<button class="events">Events</button>
+					<div class="events-content">
+						<a href="charity.html">Charity Events</a>
+						<a href="group_events.html">Group Events</a>
+						<a href="events.html">Public Events</a>
+					</div>
+			</div>
+			<a class="link_nav" href="for_sale.html">Market</a>
+			<a class="link_nav" href="new_motorcyclists.html">New Motorcyclists</a>
+			<a class="link_nav" href="contact.html" >Contact</a>
+			<a class="link_nav" href="forms.html" >Contact Form</a>
+			<a class="link_nav" href="site_map.html" >Site Map</a>
+		</div>
+
+		<div class="main">
+			
+			<h1 id="about">Motorcycle Club For Women<br>Speed & Ladies Hussaria Ireland</h1>
+			<img src="images/get_in_touch.jpg" height="200" width="1000" alt="image of women bikers">
+			<form id="user_info" action="action_page.php" method="post">
+
+					<!--create legend with fieldset-->
+					<fieldset>
+						<legend><h1>Survey</h1></legend>
+						<p>
+							If you have a moment, we'd appreciate it if you would fill out this survey.
+						</p>
+					</fieldset>
+			
+					<!--create legend with fieldset-->
+					<fieldset>
+						<legend><h2>Your Information:</h2></legend>
+							<p><!--create textfield-->
+								First Name: <input type="text" name="first_name"/>
+							</p>									
+							<p>
+								Last Name: <input type="text" name="last_name"/>
+							</p>									
+							<p>
+								Email Address: <input type="text" name="Email"/>
+							</p>
+					</fieldset>
+					
+					<!--create legend with fieldset-->
+					<fieldset>
+						<legend><h2>Would you like to receive announcements about new CDs and special offers?</h2></legend>
+						<p><!-- create check box form-->
+							<input type="checkbox" name="yes" value="on" checked="checked">YES,I'd like to receive information on new CDs and special offers.
+						</P>
+					</fieldset>
+
+					<fieldset>
+					<!--create a dropdown menu-->
+						<legend><h2>Please contact me by</h2></legend>
+							<p>
+							<select name="dropdown" size="4" multiple >
+								<option value="email">Email</option>
+								<option value="post">Post</option>
+								<option value="phone">Phone</option>
+								<option value="facebook">Facebook</option>
+							</select>
+							</p>
+					</fieldset>
+					<!--create legend with fieldset-->
+					<fieldset>							
+						<legend><h2>How did you hear about us?</h2></legend>
+							<p>	<!--create radio button-->			
+								<input type="radio" name="subject" value="search_engine">Search Engine
+								<input type="radio" name="subject" value="word_of_mouth">Word of Mouth
+								<input type="radio" name="subject" value="other" checked="checked">Other
+							</p>
+					</fieldset>
+					
+					<fieldset>
+						<legend><h2>Comments:</h2></legend>
+						<p>
+							<textarea rows="12" cols="40" name=“description”>
+								Enter description here.
+							</textarea>
+						</p>
+					</fieldset>
+					
+					<p>
+						<input type="submit" name="submit" value="Submit">
+						<input type = "reset">
+					</p>
+				<!--end forms-->
+				</form>
+			
+		</div>
+
+		<div class="footer">
+			<small>You can follow us on:</small>
+			<a href="http://facebook.com"><img src="images/fb.jpg" width="30" height="30" alt="Logo of facebook"></a>
+			<a href="http://twitter.com"><img src="images/twitter.jpg" width="30" height="30" alt="Logo of twitter"></a>
+			<br>
+			<small>Email us:</small>
+			<a href= "mailto:speed_ladies@hussaria.gmail.com"><mark><strong>speed_ladies@hussaria.gmail.com</strong></mark></a><br>
+			<br>
+			<small>&copy;: copyright</small>
+		</div>
+	</div>
+</body>
+</html>
